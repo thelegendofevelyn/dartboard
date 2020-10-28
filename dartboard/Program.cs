@@ -27,7 +27,7 @@ namespace dartboard
                 numDarts--;
                 double x = rand.NextDouble();
                 double y = rand.NextDouble();
-                if(Math.Sqrt(x * x + y * y) <= 1)
+                if(Math.Sqrt((x * x) + (y * y)) <= 1)
                 {
                     ct++;
                 }
